@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CALCULATOR</title>
+    <meta name="description" content="CALCULATOR (Odin Project)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainDiv">
+      <div class="displayDiv">
+        <div class="previous"></div>
+        <div class="current"></div>
+      </div>
+
+      <div class="numbersDiv">
+        <button class="number_seven_button button number-btn">
+          <img
+            src="/number7.png"
+            alt="Number Seven"
+            class="number_seven_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_eight_button button number-btn">
+          <img
+            src="/number8.png"
+            alt="number eight"
+            class="number_eight_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_nine_button button number-btn">
+          <img
+            src="/number9.png"
+            alt="number nine"
+            class="number_nine_img numbers_img number-img"
+          />
+        </button>
+
+        <button
+          class="division_sign_button button key--operator"
+          data-action="divide"
+        >
+          <img
+            src="/division.png"
+            alt="division sign"
+            class="division_img numbers_img img--operator"
+            data-action="divide"
+          />
+        </button>
+        <button class="number_four_button button number-btn">
+          <img
+            src="/number4.png"
+            alt="number four"
+            class="number_four_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_five_button button number-btn">
+          <img
+            src="/number5.png"
+            alt="number five"
+            class="number_five_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_six_button button number-btn">
+          <img
+            src="/number6.png"
+            alt="number six"
+            class="number_six_img numbers_img number-img"
+          />
+        </button>
+        <button
+          class="multiplication_sign_button button key--operator"
+          data-action="multiply"
+        >
+          <img
+            src="/multiplication.png"
+            alt="multiplication sign"
+            class="multiplication_img numbers_img img--operator"
+            data-action="multiply"
+          />
+        </button>
+        <button class="number_one_button button number-btn">
+          <img
+            src="/number1.png"
+            alt="Number One"
+            class="number_one_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_two_button button number-btn">
+          <img
+            src="/number2.png"
+            alt="number two"
+            class="number_two_img numbers_img number-img"
+          />
+        </button>
+        <button class="number_three_button button number-btn">
+          <img
+            src="/number3.png"
+            alt="number three"
+            class="number_three_img numbers_img number-img"
+          />
+        </button>
+        <button
+          class="addition_sign_button button key--operator"
+          data-action="add"
+        >
+          <img
+            src="/addition.png"
+            alt="addition sign"
+            class="addition_img numbers_img img--operator"
+            data-action="add"
+          />
+        </button>
+        <button class="number_zero_button button number-btn">
+          <img
+            src="/number0.png"
+            alt="number zero"
+            class="number_zero_img numbers_img number-img"
+          />
+        </button>
+        <button class="dot_sign_button button" data-action="decimal">
+          <img
+            src="/dotsign.png"
+            alt="period sign"
+            class="period_img numbers_img number-img"
+            data-action="decimal"
+          />
+        </button>
+        <button
+          class="equal_sign_button button key--equal"
+          data-action="calculate"
+        >
+          <img
+            src="/equalsign.png"
+            alt="equal sign"
+            class="equal_img numbers_img img--equal"
+            data-action="calculate"
+          />
+        </button>
+        <button
+          class="minus_sign_button button key--operator"
+          data-action="subtract"
+        >
+          <img
+            src="/minus.png"
+            alt="minus sign"
+            class="minus_img numbers_img img--operator"
+            data-action="subtract"
+          />
+        </button>
+        <button class="clear_sign_button button" data-action="clear">
+          <img
+            src="/clear.png"
+            alt="clear sign"
+            class="clear_img numbers_img"
+            data-action="clear"
+          />
+        </button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
